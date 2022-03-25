@@ -1,0 +1,324 @@
+@import url(//db.onlinewebfonts.com/c/9b06ae83a4412168ed194a8ed31218c2?family=Mabry+Pro+Medium);
+@font-face {font-family: "Mabry Pro Medium"; src: url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.eot"); src: url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9b06ae83a4412168ed194a8ed31218c2.svg#Mabry Pro Medium") format("svg"); }
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: "Mabry Pro Medium", sans-serif;
+}
+article{
+    width: 560.8px;
+    height: 457px;
+}
+#articledescription{
+    margin-bottom: 48px;
+    line-height: 0.9em;
+    padding: 6px 0;
+    
+}
+.btn {
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #382383;
+    height: 54px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(99,216,147);
+}
+#buysell{
+    font-size: 64px;
+    margin-bottom: 24px;
+    line-height: 1.2em;
+    color: #201749;
+}
+.carat{
+    margin-left: 16px;
+    height: 18px;
+    width: 18px;
+    font-size: 10px;
+    padding-top: 3px;
+   
+}
+.container{
+    display: flex;
+    height: 108px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+#download-instruction{
+    font-size: 16px;
+    color: #4C4A55;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-weight: lighter;
+}
+.downloadlinks{
+    color: rgb(236, 97, 168);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dropdown-content{
+    position: absolute;
+    display: none;
+    z-index: ;
+    width: 100vw;
+    top:107px;
+    left: -115px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px 130px;
+}
+
+.dropdown-content a{
+    display: inline-block;
+    width: 20vw;
+    height: 250px;
+    padding: 40px;
+    color: #382383;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dropdown-content a p{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#fix{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    padding: 0 110px;
+    z-index: 15;
+    background-color: white;
+}
+#hero{
+    height:522px;
+    width: 542px;
+}
+#logo{
+    width:97.38px;
+    height: 30px;
+}
+
+main{
+    display: flex;
+    position: relative;
+    top:200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    margin: 0 103.2px;
+}
+main figure{
+    padding: 0 71px 0 71px;
+}
+.menu-name{
+    font-size: 1.2em;
+    font-weight: bolder;
+
+}
+.menu-description{
+    font-size: 16px;
+    color: #4C4A55;
+    font-weight: normal;
+}
+
+nav{
+    background-color: white;
+    width: 419.56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-image{
+    width: 27px;
+    height: 28px;
+}
+
+.nav-item{
+    display: inline-block;
+    transition: transform .5s ease-in-out;
+}
+.nav-item:hover .carat{
+    transition: transform .5s ease-in-out;
+    transform: rotate(-180deg);
+}
+.nav-item:hover {
+    color: rgb(236, 97, 168);
+}
+nav .dropbtn{
+    font-size: 16px;
+    color: #4C4A55;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+
+
+}
+nav .dropbtn:hover{
+    color: rgb(236, 97, 168);
+}
+
+
+#products:hover{
+   
+
+}
+
+#products:hover #content1{
+    display: flex;
+}
+#resources:hover #content2{
+    display: flex;
+}
+#company:hover #content3{
+    display: flex;
+}
+section{
+   
+    width: 1275px;
+    
+}
+.sign{
+    
+}
+.sign a{
+    text-decoration: none;
+    color: #382383;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.slide-item{
+    display: inline-block;
+    width: 280px;
+    height: 118px;
+    margin: 0px 15px;
+}
+
+.slide-item:hover{
+    opacity: 0.5;
+}
+
+.first-slide-item{
+    margin-left: -10px;
+}
+.last-slide-item{
+    margin-right: -6px;
+}
+
+.slide-item img{
+    width: 292px;
+    height: 118px;
+    border-radius: 8px;
+}
+#slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 1280px;
+}
+
+#slides{
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*flex-shrink: 0;
+    margin-right: 0px;*/
+    transform-origin: center center;
+    transform: scale(1);
+    scroll-snap-align: center;
+}
+.slideprev{
+    position: relative;
+    z-index: 5;
+    width: 35px;
+    height: 100%;
+    background-color: rgba(39, 170, 35,1);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:none ;
+    border: none;
+}
+.slidenext{
+    position: relative;
+    width: 35px;
+    z-index: 5;
+    height: 100%;
+    background-color: rgba(189, 23, 23, 1);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    margin-right: 2px;
+}
+
+#slider::before,#slider::after{
+    position: absolute;
+    width: 25px;
+    height: 118px;
+    border-width: 4px 4px 4px 4px;
+    padding: 3px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 40px;
+    z-index: 1;
+    background-color: #4C4A55;
+    opacity: 0.9;
+    pointer-events: none;
+}
+#slider::before{
+    left:126px;
+    border-radius: 8px 0 0 8px;
+    content: '<';
+}
+      
+#slider::after{
+    right: 126px;
+    border-radius: 0 8px 8px 0;
+    content: '>';
+}
+#slider::after:hover{
+}
+
+#slides::-webkit-scrollbar {
+    display: none;
+  }
+#slider
