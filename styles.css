@@ -19,9 +19,11 @@ article{
     margin-bottom: 48px;
     line-height: 0.9em;
     padding: 6px 0;
+    color: #4C4A55;
     
 }
 #articledescription{
+    color: #4C4A55;
     display: none;
 }
 .btn {
